@@ -1,64 +1,72 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+* {
+	margin: 0;
+	padding: 0;
 }
 
+body {
+	background-color: #bdbbbb;
+	font-family: Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+#content{
+	background-color: #fff;
+}
 header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
 }
 
 section#proyectos {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 20px;
 }
 
 .proyecto {
-    flex-basis: calc(33.33% - 20px);
-    margin: 10px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	flex-basis: calc(33.33% - 20px);
+	margin: 10px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	text-align: center;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .proyecto img {
-    max-width: 100%;
-    height: auto;
+	max-width: 100%;
+	height: auto;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
 }
 
-/* Estilo para ocultar el preloader */
+
 .hidden {
-    display: none;
+	display: none;
 }
 
 #verPortfolio {
-    background-color: #0074D9; /* Color de fondo azul */
-    color: #fff; /* Color de texto blanco */
-    border: 2px solid #0074D9; /* Borde azul */
-    padding: 15px 30px; /* Espaciado interno */
-    font-size: 20px; /* Tamaño del texto */
-    cursor: pointer;
-    transition: background-color 0.3s, border-color 0.3s; /* Transición de colores al hacer hover */
-}
+	background-color: #0074D9;
+	color: #fff;
+	border: 2px solid #0074D9;
+	padding: 15px 30px;
+	font-size: 20px;
+	cursor: pointer;
+	transition: background-color 0.3s, border-color 0.3s;
+	border-radius: 20px;
+	}
 
 #verPortfolio:hover {
-    background-color: #0056b3; /* Cambio de color de fondo al hacer hover */
-    border-color: #0056b3; /* Cambio de color del borde al hacer hover */
+	background-color: #0056b3;
+	border-color: #0056b3;
+
 }
