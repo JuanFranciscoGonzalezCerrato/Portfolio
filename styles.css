@@ -21,14 +21,12 @@ body {
 	padding: 20px 0;
 }
 
-
-
 #proyectos {
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 20px;
 	justify-content: space-between;
-	
+
 }
 
 .proyecto {
@@ -36,16 +34,14 @@ body {
 	margin: 20px;
 }
 
-
-
 .proyecto img {
-	width: 300px; /* Ancho fijo */
-    height: 200px; /* Altura fija */
-    object-fit: cover; /* Para ajustar la imagen dentro del contenedor */
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    transition: transform 0.5s; /* Corregí la propiedad transition */
+	width: 300px;
+	height: 200px;
+	object-fit: cover;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	transition: transform 0.5s;
 }
 
 .proyecto img:hover {
